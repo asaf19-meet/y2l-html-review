@@ -1,0 +1,51 @@
+body {
+    background-color: green;
+    font-style: italic;
+}
+
+#explain{
+	text-align: center;
+	color: blue;
+	background-color: red;
+	animation: bounceIn 4s;
+	font-size: 200%;
+}
+
+.title{
+	font-size: 300%;
+	background-color: blue;
+	text-align: center;
+	animation: bounceIn 5s;
+
+}
+
+h1{
+	background-color: gray;
+	text-align: center;
+	animation: bounceIn 3s;
+}
+
+h2{
+	background-color: gray;
+	text-align: center;
+	animation: bounceIn 2s;
+}
+
+img{
+	display: block;
+	animation: bounceIn 1s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
